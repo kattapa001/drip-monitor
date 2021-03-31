@@ -1,0 +1,50 @@
+/* colours */
+:root{
+    --primary: #e0f2ef;
+    --secondary: #E8F5E9;
+    --title: #159180;
+  }
+  
+  /* layout styles */
+  nav{
+    background: var(--primary);
+    border-bottom: 10px solid var(--secondary);
+  }
+  nav a{
+    
+    text-transform: uppercase;
+    color: var(--title);
+    font-size: 25px;
+  }
+  nav a span{
+    font-weight: bold;
+    
+  }
+
+.maindiv {
+  font-size: 20px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align:center;
+  padding: 10px;
+  }
+
+#fireInit{
+  text-align:center;
+  border: none;
+  font-size: 20px;
+}
+
+#fireWeight{
+  text-align:center;
+  border: none;
+  font-size: 20px;
+}
+
+#pcnt{
+  text-align:center;
+  border: none;
+  font-size: 20px;
+}
